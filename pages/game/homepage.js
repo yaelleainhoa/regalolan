@@ -11,7 +11,7 @@ function setGames()
         jeu.classList.add("jeu");
 
         var title = document.createElement("h1");
-        title.innerHTML = "Jeu "+i;
+        title.innerHTML = "Jeu "+(i+1).toString();
         jeu.appendChild(title);
 
         var gameButton = document.createElement("button");

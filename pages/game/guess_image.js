@@ -36,46 +36,12 @@ var images = [
 	"/assets/img/guess_image/r16.png",
 	"/assets/img/guess_image/q17.png",
 	"/assets/img/guess_image/r17.png",
+	"/assets/img/end.png",
 ]
 
 var reponses = [
 	"",
 	"",
-	"Arménie",
-	"",
-	"République centrafricaine",
-	"",
-	"Colombie",
-	"",
-	"Trinité-et-Tobago",
-	"",
-	"Honduras",
-	"",
-	"Oman",
-	"",
-	"Jordanie",
-	"",
-	"Sénégal",
-	"",
-	"Iraq",
-	"",
-	"Irlande",
-	"",
-	"Mongolie",
-	"",
-	"Estonie",
-	"",
-	"Inde",
-	"",
-	"Suriname",
-	"",
-	"Dominique",
-	"",
-	"Chypre",
-	"",
-	"Ukraine",
-	"",
-	"Île Maurice"
 ]
 
 
@@ -87,9 +53,8 @@ var reponses = [
 
 	function raz() {
 		document.getElementById("image").setAttribute("src", images[id]) ;
-		console.log(images[id]);
-		document.getElementById("solution").textContent = "Réponse";
-		document.getElementById("solution").classList.add("btn");
+/* 		document.getElementById("solution").textContent = "Réponse";
+		document.getElementById("solution").classList.add("btn"); */
 	}
 	function precedent() {
 		id--;
@@ -97,14 +62,17 @@ var reponses = [
 	}
 
 	function suivant() {
-		id++;
-		raz();
+		if(id<images.length)
+		{
+			id++;
+			raz();
+		}
 	}
 
-	function reponse() {
+/* 	function reponse() {
 		document.getElementById("solution").textContent = reponses[id] ;
 		document.getElementById("solution").style.fontFamily = "Police1" ;
 		document.getElementById("solution").style.paddingBottom = "10px" ;
 		document.getElementById("solution").style.paddingTop = "10px" ;
 
-	}
+	} */
