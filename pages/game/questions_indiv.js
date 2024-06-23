@@ -2,54 +2,52 @@ document.getElementById("masquer").style.display = "none";
 
 var liste_questions = [
 	"0",
-	"👤 née le 25 avril 1917 à Newport News (Virginie) et morte le 15 juin 1996 à Beverly Hills (quartier de Los Angeles), est une chanteuse de jazz américaine.",
-	"La finale NBA de 1996 oppose les Chicago Bulls aux ?",
-	"👤 né le 21 janvier 1996 à Palma en Espagne, est un footballeur international espagnol. Son père est un Basque espagnol et sa mère est néerlandaise. Il est remplaçant au poste d'attaquant droit au Paris Saint-Germain.",
-	"Quel pays ont quitté les Casques bleus le 19 Avril 1996 ?",
-	"Quel joueur a fini meilleur marqueur et meilleur rebondeur lors de la finale garçon des JO 1996 ?",
-	"👤 est né le 19 avril 1996. Il commence à écrire dès ses six ans et s'investit dans la création musicale en parallèle avec la préparation de son baccalauréat ES qu'il obtient en 2014.",
-	"👤 est le fils d'un journaliste navarrais et a été élu résident du gouvernement d'Espagne en 1996 ?",
-	"Quel film de Mel Gibson a reçu 5 Oscars lors de la 68e cérémonie des Oscars en 1996 ?",
-	"👤 est un rappeur, chanteur et auteur-compositeur français, né le 2 avril 1996 à Longjumeau. Il est détenteur du record français du nombre de singles certifiés (300), avec 160 singles d'or, 90 de platine et 50 de diamant.",
-	"Qui a été élu رئيس دولة فلسطين en 1996 ?",
-	"💼 est une ligue américaine professionnelle créée en 1996.",
-	"Quelle série de films, appelée Frissons au Québec, a vu le premier film sortir en 1996 ?",
-	"👤 né le 28 mars 1996 à Maubeuge (Nord), est un footballeur international français qui évolue au poste de défenseur central et de latéral droit",
-	"Dans quelle ville est décédé Tupac dans la nuit du 7 septembre 1996 ?",
-	"👤 né le 15 mars 1996 à Amiens (Somme), est un homme politique français, est le fils d'un fleuriste et d'une psychologue et est issu d'une famille d’agriculteurs ",
-	"👤 est une basketteuse américaine née le 8 août 1996 à Hopkins (Caroline du Sud). Elle est sélectionnée en première position lors de la draft WNBA 2018 par les Aces de Las Vegas.",
-	"👤 née le 25 juin 19962 à Caracas, est une influenceuse, vlogueuse, danseuse, chanteuse et actrice américano-vénézuélo-italienne.",
-	"Quelle athlète a gagné la médaille d'or au 200m et au 400m lors des JO Atlanta 1996 ?",
-	"👤 né le 15 novembre 1996 à Lannemezan (Hautes-Pyrénées), est un joueur international français de rugby à XV jouant principalement au poste de demi de mêlée au Stade toulousain et en équipe de France depuis 2017.",
-	"👤 né le 14 mai 1996 à Amstelveen, est un disc jockey, compositeur et producteur musical néerlandais.",
-
+	"Comment s'appelle le gardien préféré de paps ?", 
+	"Combien de joueurs trouve-t-on sur un terrain de basket ?",
+	"Dans quel ordre sont sortis les 6 premiers volumes de la Saga Star Wars ? (I, II, III, IV, V, VI)", //
+	"Dans quel sens se lit un manga ?", //
+	"Dans quelle salle joue l'ESBVA ?",
+	"Quel capitaine mythique formé à la Txantrea a quitté le club en fin de saison ?",
+	"Citer un personnage de One Piece", //
+	"Sur quelle partie du corps pratique-t-on un TAVI ?",
+	"Quelles sont les couleurs traditionelles de l'Athletic ?",
+	"Quel est le nom du fidèle acolyte jaune usant de pouvoirs électriques pour abattre ses ennemis de la Team Rocket de Sacha Ketchum (dit Ash) qui pourrait grâce à ses pouvoirs recharger ton téléphone portable en un temps record dont l'évolution est Raichu dont la carte pourrait remplir une belle collection au côté de Dracofeu, Bulbizarre et Carapuce ?", //
+	"Dans quelle équipe joue Nikola Jokic ?",
+	"De quoi souffre une personne atteinte de neurocysticercosis ?",
+	"Qui est le personnage le plus poilu de Star Wars?", //
+	"Un patient se présente avec les symptomes suivants, quel est votre diagnostic ? Yeux rouges sans écoulement, Lèvres rouges, sèches et gercées et langue couleur fraise, Gonflement, rougeur et desquamation des pieds et des mains, Éruption cutanée avec taches rouges disséminées sur le tronc, Ganglions lymphatiques gonflés et sensibles au niveau du cou",
+	"Qui est le père de Boruto ? (point bonus si tu peux citer un autre personnage de la série, ex : Shikamaru)", //
+	"Quelle est la relation entre Luke et Leia ?", //
+	"Qu'est ce que la trichotillomanie ?",
+	"Quelle est la meilleure sélection masculine (hors USA) qui a gagné 2 coupes du monde ?",
+	"Citer un titre de l'un des films de l'univers Star Wars", //
+	"Comment s'appelle le stade aussi connu sous le nom de Cathédrale ?",
 	]
 ;
 
 
 var liste_reponses = [
 	"0",
-	"Ella Fitzgerald",
-	"SuperSonics de Seattle",
-	"Marco Asensio",
-	"Rwanda",
-	"David Robinson",
-	"Oli",
-	"José María Aznar",
-	"Braveheart",
-	"Ninho",
-	"Yasser Arafat",
-	"WNBA",
-	"Scream",
-	"Benjamin Pavard",
-	"Las Vegas",
-	"Léon Deffontaines",
-	"A'ja Wilson",
-	"Lele Pons",
-	"Marie-José Pérec",
-	"Antoine Dupont",
-	"Martin Garrix",	
-
+	"José Angel Iribar",
+	"10 (5 par équipe !)",
+	"IV, V, VI, I, II, III !!!!",
+	"Dans le sens inverse d'un livre lol", //
+	"Palacium",
+	"Iker Muniain",
+	"Aitor valide (mais je pense que tu vas dire Luffy)", //
+	"Le coeur",
+	"Rouge et blanc",
+	"Pikachu",
+	"Denver Nuggets",
+	"De vers dans le cerveau",
+	"Chewbacca",
+	"Kawasaki",
+	"Naruto",
+	"Frères et soeurs (le bisous était une erreur)",
+	"La trichotillomanie est caractérisée par des arrachages récurrents des cheveux entraînant une perte de cheveux. Les patients qui ont une trichotillomanie tirent ou arrachent de manière répétée leurs cheveux pour des raisons non cosmétiques.",
+	"Espagne",
+	"Au bon vouloir de Sam",
+	"San Mames",
 ]
 ;
 

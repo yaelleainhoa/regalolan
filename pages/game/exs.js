@@ -1,35 +1,35 @@
 images  = [
-	"/assets/img/drag_and_drop/brigitte_bardot.png", //0
-	"/assets/img/drag_and_drop/carla_bruni.png", //1
-	"/assets/img/drag_and_drop/dali.png", //2
-	"/assets/img/drag_and_drop/georges_brassens.png", //3
-	"/assets/img/drag_and_drop/hillary_clint.png", //4
-	"/assets/img/drag_and_drop/joe_dassin.png", //5
-	"/assets/img/drag_and_drop/marine_lepen.png", //6
-	"/assets/img/drag_and_drop/walt_disney.png", //7
+	"/assets/img/exs/attal.jpeg", //0
+	"/assets/img/exs/binoche.png", //1
+	"/assets/img/exs/enthoven.png", //2
+	"/assets/img/exs/montebourg.png", //3
+	"/assets/img/exs/besson.jpg", //4
+	"/assets/img/exs/levy.png", //5
+	"/assets/img/exs/godreche.png", //6
+	"/assets/img/exs/kruger.png", //7
 ]
 
 reponses = [
-	"Hillary Clinton", // 0
-	"Dali", // 1
-	"Marine Le Pen", // 2 
-	"Walt Disney", // 3
-	"Carla Bruni", // 4
-	"Joe Dassin", // 5
-	"Brigitte Bardot", // 6
-	"Georges Brassens", //7
+	"Juliette Binoche", // 0
+	"Arnaud Montebourg", // 1
+	"Judith Godrèche", // 2 
+	"Marc Levy", // 3
+	"Raphael Enthoven", // 4
+	"Diane Kruger", // 5
+	"Luc Besson", // 6
+	"Gabriel Attal", //7
 
 ]
 
 bonnes_reponses = [
-	"Brigitte Bardot",
-	"Carla Bruni",
-	"Dali",
-	"Georges Brassens",
-	"Hillary Clinton",
-	"Joe Dassin",
-	"Marine Le Pen",
-	"Walt Disney"
+	"Gabriel Attal",
+	"Juliette Binoche",
+	"Raphael Enthoven",
+	"Arnaud Montebourg",
+	"Luc Besson",
+	"Marc Levy",
+	"Judith Godrèche",
+	"Diane Kruger"
 ]
 
 score  = [
