@@ -4,7 +4,7 @@ export const games = [
     ["intrus", "Trouver l'intrus"],
     ["drag_and_drop", "A qui l'animal ?"],
     ["exs", "Qui partage un(e) ex ?"],
-     ["frise", "Le bon ordre"],
+     ["frise", "Le bon prénom"],
 /*    ["vf", "Vrai ou faux"],
     ["dcc", "Duo carré ou cache"],
     ["audio", "Audio"],
