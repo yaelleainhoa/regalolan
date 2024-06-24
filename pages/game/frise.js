@@ -1,67 +1,65 @@
 var equipe1 = [
-	"Enrique Maya Miranda",
-	"Javier Chourraut Burguete",
-	"Joseba Asirón Sáez",
-	"Julián Balduz Calvo",
-	"Yolanda Barcina Angumo",
+	"XX est comme un poisson dans l’eau en société. Il est doué pour se faire remarquer.",
+	"XX a un sens du devoir important et aime rendre service. Et est exigeant(e) et n’aime ni l’imprévu, ni perdre son temps.",
+	"XX est consciencieux(euse), discrèt(e) et très agréable à côtoyer et a un sens inné de l’organisation et du devoir.",
+	"XX est dynamique et courageux. De tempérament passionné, il est très actif et rempli d’énergie.",
+	"XX se distingue surtout par son côté introverti et réservé et possède une intelligence remarquable.",
 	];
-
 
 
 var dates1 = [
-	"2",
-	"4",
-	"1",
-	"5",
-	"3",
+	"Martin",
+	"Samuel",
+	"Yaëlle",
+	"Aitor",
+	"Amaya",
 	];
 
 var equipe2 = [
-	"Bilbao",
-	"Lille",
-	"Pamplona",
-	"San Sebastián",
-	"Villeneuve d'Ascq",
+	"Pluie nocturne",
+	"Le nom de Dieu",
+	"Guerrier",
+	"Chèvre sauvage",
+	"Le père de tous les Basques",
 	];
 
 var dates2 = [
-	"5",
-	"4",
-	"3",
-	"2",
-	"1",
+	"Amaya",
+	"Samuel",
+	"Martin",
+	"Yaëlle",
+	"Aitor",
 	];
 
 var equipe3 = [
-	"Bayonne - Stade Jean Dauger",
-	"Bilbao - San Mames",
-	"Mugiro - Frontón",
-	"San Sebastián - Anoeta",
-	"Vitoria - Buesa Arena",
+	"Sous le calme et le sérieux apparents de votre personnalité, couve un volcan loin d’être éteint.",
+	"Vous êtes sensible, doué(e) pour le mystère, le secret, et vous savez très bien décrypter ce qui se cache derrière les apparences.",
+	"Vous aimez voyager, bouger, rencontrer de nouvelles têtes et rien ne vous ennuie plus que la routine.",
+	"Vous aimez voyager, bouger, rencontrer de nouvelles têtes et rien ne vous ennuie plus que la routine. (le/la plus jeune des 2)",
+	"Vous êtes de celles qu’on invite toujours, persuadé que vous saurez mettre une bonne ambiance. Et on a raison !",
 	];
 
 var dates3 = [
-	"3",
-	"5",
-	"1",
-	"2",
-	"4",
-	];
+	"Aitor",
+	"Amaya",
+	"Samuel",
+	"Yaëlle",
+	"Martin",];
 
 var equipe4 = [
-	"ASM Clermont",
-	"Athletic Club",
-	"LOSC",
-	"RC Lens",
-	"Real Sociedad",
+	"Doux, calme, poli, patient, intelligents et chics.",
+	"Prudent et loyal.",
+	"Créatif, changeant et séducteur.",
+	"Rêveur, sensible et artiste.",
+	"Travailleur, très romantique, patient et calme.",
 	];
 
 var dates4 = [
-	"1",
-	"5",
-	"4",
-	"2",
-	"3",
+	"Yaëlle",
+	"Amaya",
+	"Sam",
+	"Aitatxo",
+	"Aitor",
 	];
 
 for (var i = 0; i < 5; i++) {
