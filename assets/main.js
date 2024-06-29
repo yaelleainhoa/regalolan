@@ -56,7 +56,7 @@ function setNavBar()
     var homeButton = document.createElement("button");
     homeButton.onclick = function()
     {
-        window.location.href='/index.html';
+        window.location.href='../../index.html';
     }
     var homeButtonImg = document.createElement("img");
     homeButtonImg.src = "../../assets/img/home.png";
