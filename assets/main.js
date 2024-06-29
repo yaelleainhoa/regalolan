@@ -1,4 +1,4 @@
-import { games } from "/assets/variables.js";
+import { games } from "./variables.js";
 
 function getCurrentPageIndex() {
     const currentPage = window.location.href;
@@ -13,7 +13,7 @@ const nextGameIndex = currentGameIndex + 1;
 function navigateToGame(index) {
     if (index >= 0 && index < games.length) {
         const game = games[index][0];
-        window.location.href = `/pages/page/${game}.html?gameIndex=${index}`;
+        window.location.href = `./${game}.html?gameIndex=${index}`;
     }
 }
 
@@ -21,16 +21,16 @@ function setCommonHeader()
 {
     var link1 = document.createElement("link");
     link1.rel = "stylesheet";
-    link1.href = "/assets/base.css";
+    link1.href = "../../assets/base.css";
 
     var link2 = document.createElement("link");
     link2.rel = "stylesheet";
-    link2.href = "/assets/main.css";
+    link2.href = "../../assets/main.css";
 
     var link3 = document.createElement("link");
     link3.rel = "icon";
     link3.type = "image/gif";
-    link3.href = "/assets/img/play.png";
+    link3.href = "./img/play.png";
 
     document.head.appendChild(link1);
     document.head.appendChild(link2);
@@ -48,7 +48,7 @@ function setNavBar()
         navigateToGame(prevGameIndex);
     }
     var leftButtonImg = document.createElement("img");
-    leftButtonImg.src = "/assets/img/left-arrow.png";
+    leftButtonImg.src = "../../assets/img/left-arrow.png";
     leftButtonImg.classList.add("navigationButton");
     leftButton.appendChild(leftButtonImg);
     nav.appendChild(leftButton);
@@ -59,7 +59,7 @@ function setNavBar()
         window.location.href='/index.html';
     }
     var homeButtonImg = document.createElement("img");
-    homeButtonImg.src = "/assets/img/home.png";
+    homeButtonImg.src = "../../assets/img/home.png";
     homeButtonImg.classList.add("navigationButton");
     homeButton.appendChild(homeButtonImg);
     nav.appendChild(homeButton);
@@ -70,7 +70,7 @@ function setNavBar()
         navigateToGame(nextGameIndex)
     }
     var rightButtonImg = document.createElement("img");
-    rightButtonImg.src = "/assets/img/right-arrow.png";
+    rightButtonImg.src = "../../assets/img/right-arrow.png";
     rightButtonImg.classList.add("navigationButton");
     rightButton.appendChild(rightButtonImg);
     nav.appendChild(rightButton);

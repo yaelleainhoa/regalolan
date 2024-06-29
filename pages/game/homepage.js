@@ -1,4 +1,4 @@
-import { games } from "/assets/variables.js";
+import { games } from "../../assets/variables.js";
 
 function setGames()
 {
@@ -19,7 +19,7 @@ function setGames()
         gameButton.onclick = function() {
             const page = games[i][0];
             const index = i;
-            window.location.href = `./pages/page/${page}.html?pageIndex=${index}`;
+            window.location.href = `pages/page/${page}.html?pageIndex=${index}`;
         };
         jeu.appendChild(gameButton);
 

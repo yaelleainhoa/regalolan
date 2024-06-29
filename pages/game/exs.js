@@ -1,12 +1,12 @@
 images  = [
-	"/assets/img/exs/attal.jpeg", //0
-	"/assets/img/exs/binoche.png", //1
-	"/assets/img/exs/enthoven.png", //2
-	"/assets/img/exs/montebourg.png", //3
-	"/assets/img/exs/besson.jpg", //4
-	"/assets/img/exs/levy.png", //5
-	"/assets/img/exs/godreche.png", //6
-	"/assets/img/exs/kruger.png", //7
+	"../../assets/img/exs/attal.jpeg", //0
+	"../../assets/img/exs/binoche.png", //1
+	"../../assets/img/exs/enthoven.png", //2
+	"../../assets/img/exs/montebourg.png", //3
+	"../../assets/img/exs/besson.jpg", //4
+	"../../assets/img/exs/levy.png", //5
+	"../../assets/img/exs/godreche.png", //6
+	"../../assets/img/exs/kruger.png", //7
 ]
 
 reponses = [

@@ -5,7 +5,6 @@ export const games = [
     ["drag_and_drop", "A qui l'animal ?"],
     ["exs", "Qui partage un(e) ex ?"],
     ["frise", "Le bon prénom"],
-    ["qui_est_ce", "Qui est ce ?"],
     ["fais_deviner", "Fais deviner"],
     ["article_de_mams", "Est ce un article de maman ?"],
     ["wiki", "Devine la recette"],
@@ -14,6 +13,5 @@ export const games = [
     ["audio", "Audio"],
     ["guess_image", "Deviner image"],
     ["guess_image_indices", "Deviner image avec indices"],
-    ["intrus", "Trouver l'intrus"],
      */
 ]

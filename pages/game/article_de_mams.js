@@ -1,16 +1,16 @@
 var images = [
-	"/assets/img/guess_image/rules.png",
-	"/assets/img/guess_image/article1.png",
-    "/assets/img/guess_image/article2.png",
-    "/assets/img/guess_image/article3.png",
-    "/assets/img/guess_image/article4.png",
-    "/assets/img/guess_image/article5.png",
-    "/assets/img/guess_image/article6.png",
-    "/assets/img/guess_image/article7.png",
-    "/assets/img/guess_image/article8.png",
-    "/assets/img/guess_image/article9.png",
-    "/assets/img/guess_image/article10.png",
-	"/assets/img/end.png",
+	"../../assets/img/guess_image/rules.png",
+	"../../assets/img/guess_image/article1.png",
+    "../../assets/img/guess_image/article2.png",
+    "../../assets/img/guess_image/article3.png",
+    "../../assets/img/guess_image/article4.png",
+    "../../assets/img/guess_image/article5.png",
+    "../../assets/img/guess_image/article6.png",
+    "../../assets/img/guess_image/article7.png",
+    "../../assets/img/guess_image/article8.png",
+    "../../assets/img/guess_image/article9.png",
+    "../../assets/img/guess_image/article10.png",
+	"../../assets/img/end.png",
 ]
 
 var reponses = [

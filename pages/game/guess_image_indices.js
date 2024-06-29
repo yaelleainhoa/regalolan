@@ -7,7 +7,7 @@ for(let i =0; i<manchesNb; i++)
 	let currentManche = [];
 	for(let j = 0; j < 6; j++)
 	{
-		currentManche.push("/assets/img/guess_image_indices/manche"+String(i+1)+"-indice"+String(j+1)+".png")
+		currentManche.push("../../assets/img/guess_image_indices/manche"+String(i+1)+"-indice"+String(j+1)+".png")
 	}
 	manches.push(currentManche)
 }
@@ -28,7 +28,7 @@ document.getElementById("manche-select").addEventListener
 	console.log("selected : "+selectedValue)
 	mancheActuelle = selectedValue 
 	if (selectedValue==10) {
-		document.getElementById("image").setAttribute("src", "/assets/img/guess_image_indices/manche11-indice1.jpg");	}
+		document.getElementById("image").setAttribute("src", "../../assets/img/guess_image_indices/manche11-indice1.jpg");	}
 
 	if (selectedValue!=10) {
 		console.log("here");
@@ -48,7 +48,7 @@ function Afficher_image(id) {
 
 	else {
 		
-		document.getElementById("image").setAttribute("src", "/assets/img/guess_image_indices/manche11-indice"+String(id)+".jpg") ;
+		document.getElementById("image").setAttribute("src", "../../assets/img/guess_image_indices/manche11-indice"+String(id)+".jpg") ;
 	
 	}
 }

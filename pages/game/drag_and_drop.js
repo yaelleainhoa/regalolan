@@ -1,12 +1,12 @@
 images  = [
-	"/assets/img/drag_and_drop/brigitte_bardot.png", //0
-	"/assets/img/drag_and_drop/carla_bruni.png", //1
-	"/assets/img/drag_and_drop/dali.png", //2
-	"/assets/img/drag_and_drop/georges_brassens.png", //3
-	"/assets/img/drag_and_drop/hillary_clint.png", //4
-	"/assets/img/drag_and_drop/joe_dassin.png", //5
-	"/assets/img/drag_and_drop/marine_lepen.png", //6
-	"/assets/img/drag_and_drop/walt_disney.png", //7
+	"../../assets/img/drag_and_drop/brigitte_bardot.png", //0
+	"../../assets/img/drag_and_drop/carla_bruni.png", //1
+	"../../assets/img/drag_and_drop/dali.png", //2
+	"../../assets/img/drag_and_drop/georges_brassens.png", //3
+	"../../assets/img/drag_and_drop/hillary_clint.png", //4
+	"../../assets/img/drag_and_drop/joe_dassin.png", //5
+	"../../assets/img/drag_and_drop/marine_lepen.png", //6
+	"../../assets/img/drag_and_drop/walt_disney.png", //7
 ]
 
 reponses = [
