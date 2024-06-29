@@ -1,4 +1,12 @@
 const images = [
+        // Aita images
+    "../../assets/img/fais_deviner/aita0.png",
+    "../../assets/img/fais_deviner/aita1.png",
+    "../../assets/img/fais_deviner/aita2.png",
+    "../../assets/img/fais_deviner/aita3.png",
+    "../../assets/img/fais_deviner/aita4.png",
+    "../../assets/img/fais_deviner/aita5.png",
+    
 	// Aitor images
 	"../../assets/img/fais_deviner/kimlong0.png",
 	"../../assets/img/fais_deviner/kimlong1.png",
@@ -14,14 +22,6 @@ const images = [
     "../../assets/img/fais_deviner/sam3.png",
     "../../assets/img/fais_deviner/sam4.png",
     "../../assets/img/fais_deviner/sam5.png",
-    
-    // Aita images
-    "../../assets/img/fais_deviner/aita0.png",
-    "../../assets/img/fais_deviner/aita1.png",
-    "../../assets/img/fais_deviner/aita2.png",
-    "../../assets/img/fais_deviner/aita3.png",
-    "../../assets/img/fais_deviner/aita4.png",
-    "../../assets/img/fais_deviner/aita5.png",
     
     // Amaya images
     "../../assets/img/fais_deviner/amayo0.png",
