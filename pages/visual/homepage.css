@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: rgb(85,75,85);
+    color: rgb(70, 19, 158);
     background-color: rgb(255,255,255);
 }
 
@@ -40,9 +40,9 @@ body {
     left: 0;
     right:0;
     bottom: 0;
-    background: #a29ca9; 
+    background: hsl(258, 100%, 86%); 
     border-radius: 70% 70% 70% 70%;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', endColorstr='#95909b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c87ef2', endColorstr='#95909b#db2790',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     content: '';
     opacity: 0;
         -webkit-transition: opacity 0.9s ease 0s; 

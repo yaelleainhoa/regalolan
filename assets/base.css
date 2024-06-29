@@ -1,17 +1,17 @@
 /* semantic color variables for this project */
 :root {
-  --color-button: #96bba4;
-  --button-hover:#3e915d;
+  --color-button: #e6d684;
+  --button-hover:#eab471;
   --button-text-color: #ffffff;
   --button-width: 150px;
   --button-height: 50px;
   --button-font-size: 20px;
 
   --color-text: #ffffff;
-  --color-false: #db5134;
-  --color-true: #2b9c56;
-  --color-false-hover: #c62e10;
-  --color-true-hover: #097231;
+  --color-false: #fb6a4d;
+  --color-true: #4cf28b;
+  --color-false-hover: #f24a28;
+  --color-true-hover: #29e270;
 
   --color-rules: #fffcfc;
 
@@ -59,10 +59,9 @@ body {
 
 
 
-    background: radial-gradient(ellipse at center, rgba(127,0,173,0.6) 0%,
-    rgba(0,0,0,0.8) 60%, 
-    rgba(0,0,0,1) 90%), 
-    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/31787/stars.jpg); 
+  background: linear-gradient(0deg, #9557ff89, #986cff35) no-repeat 50% fixed, url(/assets/img/background.png) no-repeat 50% fixed;
+  background-size: auto;
+  background-size: cover;
     background-size: auto;
     background-size: cover;
 }
