@@ -59,7 +59,7 @@ body {
 
 
 
-  background: linear-gradient(0deg, #9557ff89, #986cff35) no-repeat 50% fixed, url(./img/background.png) no-repeat 50% fixed;
+  background: linear-gradient(0deg, #9557ff89, #986cff35) no-repeat 50% fixed, url(../../assets/img/background.png) no-repeat 50% fixed;
   background-size: auto;
   background-size: cover;
     background-size: auto;
@@ -73,35 +73,35 @@ button:hover{
 /*Les polices*/
 @font-face {
   font-family: "Police1";
-  src: url('./polices/Police1.ttf');
+  src: url('../../assets/polices/Police1.ttf');
 }
 
 @font-face {
   font-family: "Police2";
-  src: url('./polices/Police2.ttf');
+  src: url('../../assets/polices/Police2.ttf');
 }
 
 @font-face {
   font-family: "Police3";
-  src: url('./polices/Police3.ttf');
+  src: url('../../assets/polices/Police3.ttf');
 }
 
 @font-face {
   font-family: "Police4";
-  src: url('./polices/Police4.ttf');
+  src: url('../../assets/polices/Police4.ttf');
 }
 
 @font-face {
   font-family: "Police5";
-  src: url('./polices/Police5.ttf');
+  src: url('../../assets/polices/Police5.ttf');
 }
 
 @font-face {
   font-family: "Police8";
-  src: url('./polices/Police8.otf');
+  src: url('../../assets/polices/Police8.otf');
 }
 
 @font-face {
   font-family: "Police9";
-  src: url('./polices/Police9.ttf');
+  src: url('../../assets/polices/Police9.ttf');
 }
