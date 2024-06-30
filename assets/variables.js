@@ -8,6 +8,7 @@ export const games = [
     ["fais_deviner", "Fais deviner"],
     ["article_de_mams", "Est ce un article de maman ?"],
     ["wiki", "Devine la recette"],
+    ["guess_ai", "Qui est ce ?"],
 /*    ["vf", "Vrai ou faux"],
     ["dcc", "Duo carré ou cache"],
     ["audio", "Audio"],

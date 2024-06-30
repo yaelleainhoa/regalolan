@@ -1,13 +1,13 @@
 
 
 manches = []
-let manchesNb = 2
+let manchesNb = 9
 for(let i =0; i<manchesNb; i++)
 {
 	let currentManche = [];
-	for(let j = 0; j < 6; j++)
+	for(let j = 0; j < 3; j++)
 	{
-		currentManche.push("../../assets/img/guess_image_indices/manche"+String(i+1)+"-indice"+String(j+1)+".png")
+		currentManche.push("../../assets/img/guess_ai/manche"+String(i+1)+"-indice"+String(j+1)+".jpg")
 	}
 	manches.push(currentManche)
 }
@@ -15,7 +15,7 @@ for(let i =0; i<manchesNb; i++)
 
 var mancheActuelle = 0
 
-for(let i = 0; i < manchesNb ; i++)
+for(let i = 1; i <= manchesNb ; i++)
 	{
 		this.document.getElementById("manche-select").innerHTML += '<option value='+i + '> Manche ' + String(i) + "</option>"
 	}
