@@ -4,7 +4,7 @@
 <head>
   <title>Qu'est-ce ?</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="../visual/guess_image.css">
+  <link rel="stylesheet" href="../visual/guess_ia.css">
 </head>
 
 <body>
@@ -15,6 +15,10 @@
 			Précédent
 		</button>
 
+		<button class="btn reponse" id="reponse" onclick="reponse()">
+			Réponse
+		</button>
+
 		<button class="btn apres" id="next" onclick="suivant()">
 			Suivant
 		</button>
@@ -23,12 +27,14 @@
 
 
 	<div id = "bloc_image">
-		<img src="../screen/cap00.jpg" id="image">
+		<img src="../../assets/img/guess_ia/25.png" id="image">
 	</div>
 	
 </div>
 
+
+
 </body>
 	<script type="module" src="../../assets/main.js"></script>
-	<script src="../game/guess_image.js"></script>
+	<script src="../game/guess_ia.js"></script>
 </html>
