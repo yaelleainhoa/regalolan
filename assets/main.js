@@ -30,7 +30,7 @@ function setCommonHeader()
     var link3 = document.createElement("link");
     link3.rel = "icon";
     link3.type = "image/gif";
-    link3.href = "./img/play.png";
+    link3.href = "../../assets/img/play.png";
 
     document.head.appendChild(link1);
     document.head.appendChild(link2);
