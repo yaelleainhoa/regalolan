@@ -1,4 +1,4 @@
-import { games } from "./variables.js";
+import { games } from "assets/variables.js";
 
 function getCurrentPageIndex() {
     const currentPage = window.location.href;
