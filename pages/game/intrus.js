@@ -74,7 +74,9 @@ function selection_manche(clicked_manche) {
 	var j = 8 * id;
 	for (var i = 0 ; i < 8 ; i++)
 		{
-			// document.getElementById(i).style.backgroundColor = "#EFF4E6";
+			document.getElementById(i).classList.remove("backgroundTrue");
+			document.getElementById(i).classList.remove("backgroundFalse");
+			document.getElementById(i).classList.add("answer");
 			document.getElementById(i).textContent = manche[j + i];
 		}
 	nbrManche = parseInt(id, 4);
