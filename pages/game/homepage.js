@@ -1,4 +1,6 @@
-import { games } from "/regalolan/assets/variables.js";
+import { games } from "../../assets/variables.js";
+// To change for githubpages
+// import { games } from "/regalolan/assets/variables.js";
 
 function setGames()
 {
