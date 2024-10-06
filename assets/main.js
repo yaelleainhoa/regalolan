@@ -1,4 +1,4 @@
-import { games } from "../../assets/variables.js";
+import { games } from "/regalolan/assets/variables.js";
 
 function getCurrentPageIndex() {
     const currentPage = window.location.href;
