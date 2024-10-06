@@ -59,7 +59,7 @@ body {
 
 
 
-  background: linear-gradient(0deg, #9557ff89, #986cff35) no-repeat 50% fixed, url(../../assets/img/background.png) no-repeat 50% fixed;
+  background: linear-gradient(0deg, #9557ff89, #986cff35) no-repeat 50% fixed, url(img/background.png) no-repeat 50% fixed;
   background-size: auto;
   background-size: cover;
     background-size: auto;
