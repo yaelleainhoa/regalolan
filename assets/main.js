@@ -4,13 +4,15 @@ import { games } from "../../assets/variables.js";
 
 function getCurrentPageIndex() {
     const currentPage = window.location.href;
-    return parseInt(currentPage[currentPage.length-1],10);
+    let matches = currentPage.match(/\d+/g);
+    let number = matches[matches.length-1];
+    return parseInt(number,10);
 }
 
 const currentGameIndex = getCurrentPageIndex();
 
-const prevGameIndex = currentGameIndex - 1;
-const nextGameIndex = currentGameIndex + 1;
+const prevGameIndex = (currentGameIndex - 1)%games.length;
+const nextGameIndex = (currentGameIndex + 1)%games.length;
 
 function navigateToGame(index) {
     if (index >= 0 && index < games.length) {
